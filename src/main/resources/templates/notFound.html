@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="'User ' + ${user.lastName} + ' '+${user.firstName} + ' not found'"/>
+<a href="/user">Registration form</a>
+<p> <a href="/findUser">Find user</a></p>
+</body>
+</html>
